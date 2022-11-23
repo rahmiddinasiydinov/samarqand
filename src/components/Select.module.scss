@@ -1,0 +1,9 @@
+@import '../variables/variables.scss'; 
+
+.option{
+    border: none;
+    &:hover{
+        color: $secondary;
+        transition: .1s linear;
+    }
+}

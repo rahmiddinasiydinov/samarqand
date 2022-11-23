@@ -1,0 +1,25 @@
+.logo{
+    width: 90px;
+    height: 49px;
+    &:hover{
+        cursor: pointer;
+    }
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 23px;
+    padding-bottom: 23px
+}
+.list{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+}
+.option{
+    margin-right: 50px;
+    &:last-child{
+        margin-right: 0;
+    }
+}
