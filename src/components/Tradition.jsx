@@ -7,7 +7,7 @@ import traditionImage from '../assets/images/tradition.png'
 export const Tradition = () => {
 
     const getClassnames = () => classNames(styles.tradition)
-    return (<section className={getClassnames()}>
+    return (<section id='tradition' className={getClassnames()}>
             <Container>
                 <h1 className={styles.heading}>Go'zal<span className={styles.arabic}> Arab </span>
                  yozuvi san'ati</h1>
