@@ -16,8 +16,8 @@ export const Tradition = () => {
 
                  <div className={styles.article}>
                     <div className={styles.article__text}>
-                        <h1 className={styles.article__heading}>Arab xattotligi o'zini yozgan an'anadir</h1>
-                        <p className={styles.article__content}>Asrlar davomida xattotlik amaliy faoliyatdan go‘zal yozuv san’atiga aylanib, endi shunchaki muloqot vositasi emas, balki san’at turi va islom madaniy o‘ziga xosligining muhim qismiga aylandi. Bugungi kunda tashrif buyuruvchilar deyarli barcha islom davlatlarida masjid bitiklaridan tortib, zamonaviy sanʼatgacha uning yozuvi izlarini koʻrishlari mumkin. <br/><br/> Samarqandlik zamonaviy xattot Abdujalil Ergashev arab xattotligini qadrlaydi. Amaliyotchi xattot A.Ergashev meʼmoriy yodgorliklarning epigrafik matnlarini tiklashda faol ishtirok etadi.</p>
+                        <h2 className={styles.article__heading}>Arab xattotligi o'zini yozgan an'anadir</h2>
+                        <p className={classNames(styles.article__content, 'content__text')}>Asrlar davomida xattotlik amaliy faoliyatdan go‘zal yozuv san’atiga aylanib, endi shunchaki muloqot vositasi emas, balki san’at turi va islom madaniy o‘ziga xosligining muhim qismiga aylandi. Bugungi kunda tashrif buyuruvchilar deyarli barcha islom davlatlarida masjid bitiklaridan tortib, zamonaviy sanʼatgacha uning yozuvi izlarini koʻrishlari mumkin. <br/><br/> Samarqandlik zamonaviy xattot Abdujalil Ergashev arab xattotligini qadrlaydi. Amaliyotchi xattot A.Ergashev meʼmoriy yodgorliklarning epigrafik matnlarini tiklashda faol ishtirok etadi.</p>
                         
                         <Button contained>Aloqa</Button>
 
