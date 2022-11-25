@@ -1,0 +1,14 @@
+.team{
+    padding: 150px 0;
+    background-image: url('../assets/images/background-team-left.svg'), url('../assets/images/background-team-right.svg');
+    background-repeat: no-repeat;
+    background-position: 0 150%, 100% -40%;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap: 10%;
+}
+.right{
+    padding-top: 75%;
+}

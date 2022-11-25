@@ -16,11 +16,11 @@ export const Header = () => {
         <img src={logo} alt="logo" className={styles.img}/>
 
         <ul className={styles.list}>
-            <li className={styles.option}><Button>About us</Button></li>
-            <li className={styles.option}><Button>Work</Button></li>
-            <li className={styles.option}><Button >Contacts</Button></li>
-            <li className={styles.option}><Select options={[{value:'en', content:"Eng"},{value:'ru', content:"Rus"}, {value:'uz', content:"Uzb"}]}/></li>
-            <li className={styles.option}><Button withBorder>Contact us</Button></li>
+            <li className={styles.option}><Button id='aboutUs' link>About us</Button></li>
+            <li className={styles.option}><Button id='work' link>Work</Button></li>
+            <li className={styles.option}><Button id='contact'>Contacts</Button></li>
+            <li className={styles.option}><Select id='lang' options={[{value:'en', content:"Eng"},{value:'ru', content:"Rus"}, {value:'uz', content:"Uzb"}]}/></li>
+            <li className={styles.option}><Button id='contactUs' withBorder>Contact us</Button></li>
         </ul>
 
         </div>

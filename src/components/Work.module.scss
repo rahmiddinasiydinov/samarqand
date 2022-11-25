@@ -1,0 +1,30 @@
+@import '../scss/variables.scss';
+.work{
+    background-color: $primary;
+    padding: 200px 0;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 45% 45% ;
+    gap: 10%;
+}
+.left{
+    &__image{
+        width: 780px;
+        height: 1010px;
+        max-width: 100%;
+    }
+}
+.right{
+    &__image{
+        width: 636px;
+        height: 364px;
+        max-width: 100%;
+    }
+}
+.heading, .text, .caption, .subheading, .year{
+    color: $secondary;
+}   
+.content{
+    margin-top: 100px;
+}
