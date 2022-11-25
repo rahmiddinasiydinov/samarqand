@@ -1,0 +1,29 @@
+@import '../variables/variables.scss';
+.experience{
+    margin-top: 150px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 28px;
+    padding-bottom: 300px;
+    background-image: url('../assets/images/experience.svg');
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-position: 90% 70%;
+    background-size: 600px;
+}
+
+.heading{
+    margin-top: 10px;
+    font-family: $secondary-font;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 106%;
+    width: 982px;
+}
+.text{
+    margin-top: 30px;
+    max-width: 600px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}

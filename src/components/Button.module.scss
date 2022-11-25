@@ -16,3 +16,17 @@
         background-color: $primary;
     }
 }
+.contained{
+    padding: 18px 86px;
+    background-color: $primary;
+    border: 1px solid $primary;
+    color: $white;
+    transition: .1s linear;
+    border-radius: 20px;
+    margin-top: 50px;
+    display: inline-block;
+    &:hover{
+        background-color: $secondary;
+        color: $primary;
+    }
+}
