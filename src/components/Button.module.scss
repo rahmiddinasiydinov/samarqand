@@ -3,6 +3,8 @@
     background-color: transparent;
     border: none;
     transition: .1s linear;
+    display: flex;
+    flex-wrap: nowrap;
     cursor: pointer;
     &:hover{
         color: $secondary;
@@ -20,6 +22,7 @@
     padding: 18px 86px;
     background-color: $primary;
     border: 1px solid $primary;
+    font-family: 600;
     color: $white;
     transition: .1s linear;
     border-radius: 20px;
@@ -28,5 +31,19 @@
     &:hover{
         background-color: $secondary;
         color: $primary;
+    }
+}
+.light{
+    padding: 18px 86px;
+    background-color: $secondary;
+    border: 1px solid $secondary;
+    color: $primary;
+    transition: .1s linear;
+    border-radius: 20px;
+    margin-top: 50px;
+    display: inline-block;
+    &:hover{
+        background-color: $primary;
+        color: $secondary;
     }
 }

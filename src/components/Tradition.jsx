@@ -23,7 +23,7 @@ export const Tradition = () => {
 
                     </div>
                     <div className={styles.article__image}>
-                        <img width={780} height={900} src={traditionImage} className={styles.image} alt="tradition"/>
+                        <img width={780} src={traditionImage} className={styles.image} alt="tradition"/>
                         
                         </div>
                  </div>

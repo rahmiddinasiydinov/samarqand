@@ -7,7 +7,7 @@ import Container from "./Container"
 
 export const Team = () => {
 
-    return(<section className={styles.team}>
+    return(<section className={styles.team} id='team'>
         <Container>
         <div className={classNames(styles.wrapper)}>
            <div className={styles.left}>
