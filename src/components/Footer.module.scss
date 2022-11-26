@@ -1,0 +1,46 @@
+@import '../scss/variables.scss';
+.footer{
+    padding: 100px 0 50px;
+    background-color: $primary;
+    max-width: 100vw;
+}
+.logo{
+    &__image{
+        transition: .2s linear;
+        &:hover{
+            cursor: pointer;
+            opacity: .7;
+        }
+    }
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading{
+    color: $secondary;
+    margin-bottom: 30px;
+}
+.link{
+    color: $secondary;
+    transition: .2s linear;
+    &:hover{
+        opacity: .7;
+    }
+}
+.address{
+    color: $secondary;
+}
+.navigation{
+    display: flex;
+    
+
+}
+.item{
+    margin-bottom: 15px;
+}
+.column{
+    margin-right: 100px;
+}

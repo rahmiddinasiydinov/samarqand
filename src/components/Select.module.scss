@@ -1,9 +1,13 @@
 @import '../scss/variables.scss'; 
 
-.option{
+.select{
+    background-color: transparent;
     border: none;
     &:hover{
         color: $secondary;
         transition: .1s linear;
     }
+}
+.light{
+    color: $secondary;
 }

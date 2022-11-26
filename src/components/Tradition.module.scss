@@ -3,7 +3,6 @@
 .tradition{
     padding-top: 135px;
     min-height: 150vh;
-
     padding-bottom: 200px;
     
 }
@@ -33,24 +32,30 @@
 
 .article{
     margin-top: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 50% 40%;
+    gap: 10%;
     &__text{
-        max-width: 646px;
+        width: 100%;
         margin-right: 100px;
     }
     &__heading{
         font-weight: 500;
         font-size: 50px;
         line-height: 55px;
+        max-width: 100%;
     }
     &__content{
         opacity: .7;
+        width: 100%;
+    }
+    &__image{
+        display: flex;
+        align-items: center;
     }
 }
 .image{
-    max-width: 700px;
+    max-width: 100%;
     border-radius: 60px;
     box-shadow: -30px 50px 0 0 $primary;
 }

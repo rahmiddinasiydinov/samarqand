@@ -11,18 +11,20 @@ export const Header = () => {
         return classnames(styles.header)
     } 
 
-    return (<Container>
+    return (<header id='header'>
+        <Container>
         <div className={getHeaderClassnames()}>
-        <img src={logo} alt="logo" className={styles.img}/>
+        <img src={logo} alt="logo" className={styles.logo}/>
 
         <ul className={styles.list}>
-            <li className={styles.option}><Button id='aboutUs' link>About us</Button></li>
-            <li className={styles.option}><Button id='work' link>Work</Button></li>
-            <li className={styles.option}><Button id='contact'>Contacts</Button></li>
-            <li className={styles.option}><Select id='lang' options={[{value:'en', content:"Eng"},{value:'ru', content:"Rus"}, {value:'uz', content:"Uzb"}]}/></li>
-            <li className={styles.option}><Button id='contactUs' withBorder>Contact us</Button></li>
+            <li className={styles.option}><Button link='#aboutUs'>About us</Button></li>
+            <li className={styles.option}><Button link='#work'>Work</Button></li>
+            <li className={styles.option}><Button link='#contact'>Contacts</Button></li>
+            <li className={styles.option}><Select options={[{value:'en', content:"Eng"},{value:'ru', content:"Rus"}, {value:'uz', content:"Uzb"}]}/></li>
+            <li className={styles.option}><Button link='#contact' withBorder>Contact us</Button></li>
         </ul>
 
         </div>
-    </Container>)
+    </Container>
+    </header>)
     }

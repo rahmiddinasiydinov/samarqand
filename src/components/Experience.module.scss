@@ -5,16 +5,20 @@
     font-size: 25px;
     line-height: 28px;
     padding-bottom: 300px;
-    background-image: url('../assets/images/experience.svg');
-    z-index: -1;
-    background-repeat: no-repeat;
-    background-position: 90% 70%;
-    background-size: 600px;
     margin-bottom: 100px;
 }
 
 .heading{
     width: 982px;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap:10%
+}
+.image{
+    width: 600px;
+    max-width: 100%;
 }
 .text{
     max-width: 600px;
