@@ -4,26 +4,28 @@ import { Card } from "./Card"
 import leftImage from '../assets/images/team-image-1.png'
 import rightImage from '../assets/images/team-image-2.png'
 import Container from "./Container"
+import { useTranslation } from "react-i18next"
 
 export const Team = () => {
+    const {t}= useTranslation('translation', {keyPrefix: "team"})
 
     return(<section className={styles.team} id='team'>
         <Container>
-            <h2 className={classNames(styles.heading,'content__heading')}>Bizning Jamoamiz</h2>
+            <h2 className={classNames(styles.heading,'content__heading')}>{ t("title") }</h2>
         <div className={classNames(styles.wrapper)}>
            <div className={styles.left}>
                {<Card 
-               title={'Abdujalil Ergashev'} 
+               title={ t("name-1") } 
                image={leftImage}
-               text={'J.Ergashov azaliy hunarmandchilik an’analarini yangicha mazmun bilan boyitib, qadimiy Samarqand xattoti san’atini yosh avlodga yetkazayotgan ustalardan biridir. Samarqandning qadimiy obidalaridagi barcha bitiklarni o‘qib, tarjima qilgan.'}
+               text={t("text-1")}
                /> 
                }
            </div>                        
            <div className={styles.right}>
                {<Card 
-               title={'Sabirova Aziza'}
+               title={t("name-2")}
                image={rightImage}
-               text={'2007 yildan bayon hattotlik bilan shug\'ullanadi. Ustozi Ergashev Abdujalil. Xabibulla Solih, Islom Muhammad, Salimjon Badalboevlar dueti oldilar. Samarkand Registon muzeyi Suls Hatidaning 2015-2018 yillar Samarqand kogozida 60/80 dzhilda chop etylgan 1-ilmiy asarlari saklanadi.'}
+               text={t("text-2")}
                />
                }
            </div>

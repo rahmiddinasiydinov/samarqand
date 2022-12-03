@@ -1,0 +1,73 @@
+{
+    "header":{
+        "aboutUs": "About us",
+        "work": "Work",
+        "contact": "Contacts",
+        "contactUs": "Contact us"
+    },
+    "tradition":{
+        "heading-1": "The art of beautiful",
+        "arabic": " Arabic ",
+        "heading-2": "writing",
+        "subtext": "This revered craft is over 1400 years old. Ancient texts were used to write the first Qur'an.",
+        "title":"Arabic calligraphy is a tradition that wrote itself",
+        "text-1":"Over the centuries, calligraphy has evolved from a practical matter into the art of beautiful writing - it is no longer just a means of communication, but also an art form and an important part of Islamic cultural identity. Today, visitors can see traces of her letters in almost all Islamic states, from inscriptions in mosques to contemporary art.",
+        "text-2": "Modern calligrapher from Samarkand Abdujalil Ergashev appreciates Arabic calligraphy. As a practicing calligrapher A. Ergashev actively participates in the restoration of epigraphic texts of architectural landmarks.",
+        "contactUs": "Contact us"
+    }, 
+    "aboutUs":{
+        "caption":"About us",
+        "title":"We have been doing calligraphy for 25 years",
+        "text-1":"AZZA va JALLA is a project dedicated to the art of Arabic calligraphy and lettering. For more than five years now, we cannot live without calligraphy, and therefore we are in a hurry to share with you all the knowledge and personal experience, magic and inspiration.",
+        "text-2":"Nowadays, our creative laboratory is located in one of the cells of the Ulugbek Madrasah on the famous Registan Square."
+    }, 
+    "work":{
+        "caption":"Work",
+        "title":"Our Work",
+        "subtitle":"Rewritten Quran for the Tashkent Center for Islamic Civilization",
+        "text":"J. Ergashov is currently working on the second copy of the ancient \"Usman Musafi\" in the \"Kofi\" letter of the Koran. He started this excerpt from the book in 2020. The presentation of the book is scheduled for September 2022. A copy of the book will be donated to the Imam Bukhari Museum."
+    },
+    "team":{
+        "title" :"Our team",
+        "name-1" :"Abdujalil Ergashev",
+        "name-2" : "Sabirova Aziza",
+        "text-1": "J. Ergashov is one of the masters who enrich the age-old traditions of crafts with new meaning, passing the art of the ancient Samarkand hattot to the younger generation. He read and translated all the inscriptions on the ancient monuments of Samarkand.",
+        "text-2": "He has been engaged in calligraphy since 2007. Teacher Ergashev Abdujalil. Habibullah Salih, Islam Muhammad, Salimjon Badalboev received blessings. The results of the 1st scientific works of Suls Khatida published in Samarkand paper 2015-2018 in volumes 60/80 at the Samarkand Registan Museum."
+    },
+    "duty":{
+        "title" :"What we are doing",
+        "text-1" :"We actively participate in the restoration of epigraphic texts of the architectural sights of Samarkand, we are engaged in the restoration of handwritten books, the design of souvenirs.",
+        "text-2":" At the request of tourists with reed and bamboo pens, we write on natural leather or Samarkand paper made using the technology of the 7th century with various styles of Arabic writing their names with wishes of happiness and prosperity.", 
+        "contactUs":"Contact Us"
+    }, 
+    "contact":{
+        "title":"Contact Us", 
+        "label-address":"Address:", 
+        "label-phone":"Phone number:", 
+        "label-email":"Email adress:",
+        "address-1":"Uzbekistan, Samarkand, Registan Square,", 
+        "address-2":"Ulugbek Madrasah", 
+        "phone":"+998 97 916 69 09", 
+        "email":"info@azzavajallagmail.uz", 
+        "form-title":"Send us a message", 
+        "placeholder-name":"Full name*", 
+        "placeholder-phone":"Phone number*",
+        "placeholder-email":"e-mail", 
+        "placeholder-message":"Message",
+        "send":"Send message"
+    }, 
+    "footer":{
+        "contact-title":"Contact",
+        "telegram":"Telegram",
+        "map":"Site map", 
+        "aboutUs":"About us",
+        "work":"Work",
+        "team":"Our team",
+        "duty":"What we are doing",
+        "contact":"Contact", 
+        "label-address":"Address", 
+        "address-1":"Uzbekistan, Samarkand,",
+        "address-2":"Registan Square,",
+        "address-3":"Ulugbek Madrasah"
+    }
+}

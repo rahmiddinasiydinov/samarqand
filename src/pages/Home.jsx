@@ -5,10 +5,11 @@ import { MainLayout } from '../components/MainLayout'
 import { Footer } from '../components/Footer'
 
 
-export const Home = () => {
+export const Home = () => { 
     const getHomeClassnames = () => {
         return classnames(styles.home)
     }
+
     return <div className={getHomeClassnames()}>
         <Header/>
         <MainLayout/>
