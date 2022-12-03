@@ -10,6 +10,7 @@
 .header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-top: 23px;
     padding-bottom: 23px
 }
@@ -23,5 +24,34 @@
     margin-right: 50px;
     &:last-child{
         margin-right: 0;
+    }
+}
+
+.toggle{
+    display: none;
+    z-index: 1;
+    position: fixed;
+    top: 40px;
+    right: 40px;
+}
+
+@media screen and (max-width:1024px){
+    .logo{
+        margin-right: 20px;
+    }
+
+    .option{
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .list{
+        display: none;
+    }
+
+    .toggle{
+        display: block;
+
     }
 }

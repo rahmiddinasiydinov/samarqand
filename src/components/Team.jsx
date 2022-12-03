@@ -9,6 +9,7 @@ export const Team = () => {
 
     return(<section className={styles.team} id='team'>
         <Container>
+            <h2 className={classNames(styles.heading,'content__heading')}>Bizning Jamoamiz</h2>
         <div className={classNames(styles.wrapper)}>
            <div className={styles.left}>
                {<Card 

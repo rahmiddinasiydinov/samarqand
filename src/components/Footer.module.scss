@@ -6,6 +6,8 @@
 }
 .logo{
     margin-right: 150px;
+    width: 268px;
+    max-width: 100%;
     &__image{
         transition: .2s linear;
         &:hover{
@@ -46,3 +48,51 @@
     margin-top: 30px;
     margin-right: 50px;
 }
+
+ @media screen and (max-width: 768px) {
+.footer{
+    padding: 50px 0;
+}
+
+.logo{
+    margin-right: 0;
+    width: 166px;
+    margin: 0 auto 60px;
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heading{
+    margin-bottom: 15px;
+}
+
+.link{
+    width: 100%;
+    font-size: 12px;
+    line-height: 15px;
+    opacity: .7;
+    text-overflow: ellipsis;
+}
+.address{
+    font-size: 14px;
+    line-height: 15px;
+    opacity: .7;
+}
+
+.navigation{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 45% 45%;
+    gap: 10%;
+}
+.item{
+    margin-bottom: 10px;
+}
+.column{
+    margin-right: 0;
+}
+ }
