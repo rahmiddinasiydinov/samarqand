@@ -24,3 +24,39 @@
 .content{
     margin-top: 100px;
 }
+
+
+@media screen and (max-width: 768px) {
+
+.work{
+    background-color: $primary;
+    padding: 50px 0;
+}
+
+.wrapper{
+   display: flex;
+   flex-direction: column-reverse;
+}
+
+.left{
+    margin-top: 30px;
+}
+
+.right{
+
+    &__image{
+        margin-top: 30px;
+    }
+
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.text{
+    opacity: .7;
+}
+
+.content{
+    margin-top: 0;
+}
+}

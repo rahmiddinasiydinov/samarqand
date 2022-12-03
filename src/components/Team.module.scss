@@ -4,11 +4,42 @@
     background-repeat: no-repeat;
     background-position: 0 150%, 100% -40%;
 }
+
+.heading{
+    margin-bottom: 100px;
+}
+
 .wrapper{
     display: grid;
     grid-template-columns: 45% 45%;
     gap: 10%;
 }
+
 .right{
     padding-top: 75%;
+}
+
+@media screen and (max-width: 768px) {
+    .team{
+        padding: 100px 0;
+        background-position: 0 110%, 100% -10%;
+        background-size: 170px 344px;
+    }
+
+    .heading{
+        margin-bottom: 50px;
+    }
+
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left{
+        margin-bottom: 50px;
+    }
+
+    .right{
+        padding-top: 0;
+    }
 }

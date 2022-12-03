@@ -6,6 +6,7 @@ import rightImage from '../assets/images/work-image-2.png'
 
 
 export const Work = () => {
+    
     return(<section id='work' className={styles.work}>
         <Container>
            <div className={classNames(styles.wrapper)}>

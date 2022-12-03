@@ -2,3 +2,22 @@
     width: 100%;
     padding: 0 130px;
 }
+
+@media screen and (max-width:1024px){
+    .container{
+        width: 100%;
+        padding: 0 60px;
+    }
+}
+@media screen and (max-width:768px){
+    .container{
+        width: 100%;
+        padding: 0 40px;
+    }
+}
+@media screen and (max-width:425px){
+    .container{
+        width: 100%;
+        padding: 0 10px;
+    }
+}
