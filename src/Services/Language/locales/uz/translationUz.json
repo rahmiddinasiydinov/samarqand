@@ -1,0 +1,74 @@
+{
+    "header":{
+        "aboutUs" : "Biz haqimizda",
+        "work": "Ishimiz",
+        "contact":"Kontaktlar",
+        "contactUs":"Aloqa"        
+    },
+    "tradition":{
+        "heading-1": "Go'zal",
+        "arabic": "  Arab  ",
+        "heading-2": "yozuvi san'ati",
+        "subtext": "Ushbu hurmatga sazovor hunarmandchilik 1400 yildan oshadi. Birinchi Qur'onni yozish uchun qadimgi matnlardan foydalanilgan.",
+        "title":"Arab xattotligi o'zini yozgan an'anadir",
+        "text-1":"Asrlar davomida xattotlik amaliy faoliyatdan go‘zal yozuv san’atiga aylanib, endi shunchaki muloqot vositasi emas, balki san’at turi va islom madaniy o‘ziga xosligining muhim qismiga aylandi. Bugungi kunda tashrif buyuruvchilar deyarli barcha islom davlatlarida masjid bitiklaridan tortib, zamonaviy sanʼatgacha uning yozuvi izlarini koʻrishlari mumkin.",
+        "text-2": " Samarqandlik zamonaviy xattot Abdujalil Ergashev arab xattotligini qadrlaydi. Amaliyotchi xattot A.Ergashev meʼmoriy yodgorliklarning epigrafik matnlarini tiklashda faol ishtirok etadi.",
+        "contactUs": "Aloqa"
+    },
+    "aboutUs":{
+        "caption":"Biz haqimizda",
+        "title":"Biz 25 yildan beri xattotlik bilan shug‘ullanamiz",
+        "text-1":"AZZA va JALLA – arab xattotligi va yozuvi sanʼatiga bagʻishlangan loyiha. Yigirma besh yildan ortiq vaqt davomida biz xattotliksiz yashay olmaymiz va shuning uchun biz siz bilan barcha bilim va shaxsiy tajriba, sehr va ilhom bilan bo'lishishga shoshilmoqdamiz.",
+        "text-2":" Hozir ijodiy laboratoriyamiz mashhur Registon maydonidagi Ulug‘bek madrasasi hujralaridan birida joylashgan."
+    },
+    "work":{
+        "caption":"Ishimiz",
+        "title":"Bizni Ishimiz",
+        "subtitle":"Toshkent Islom sivilizatsiyasi markazi uchun qayta yozilgan Qur'on",
+        "text":"J.Ergashov hozirda Qur’onning “Kofi” maktubidagi qadimiy “Usmon Musafiy”ning ikkinchi nusxasi ustida ishlamoqda. U ushbu kitobdan parchani 2020 yilda boshlagan. Kitob taqdimoti 2022-yil sentabr oyiga mo‘ljallangan. Kitobning bir nusxasi Imom Buxoriy muzeyiga topshiriladi."
+    },
+    "team":{
+        "title" :"Bizning jamoamiz",
+        "name-1" :"Abdujalil Ergashev",
+        "name-2" : "Sabirova Aziza",
+        "text-1": "J.Ergashov azaliy hunarmandchilik an’analarini yangicha mazmun bilan boyitib, qadimiy Samarqand xattoti san’atini yosh avlodga yetkazayotgan ustalardan biridir. Samarqandning qadimiy obidalaridagi barcha bitiklarni o‘qib, tarjima qilgan.",
+        "text-2": "2007 yildan bayon hattotlik bilan shug'ullanadi. Ustozi Ergashev Abdujalil. Xabibulla Solih, Islom Muhammad, Salimjon Badalboevlar dueti oldilar. Samarkand Registon muzeyi Suls Hatidaning 2015-2018 yillar Samarqand kogozida 60/80 dzhilda chop etylgan 1-ilmiy asarlari saklanadi."
+    },
+    "duty":{
+        "title" :"Biz nima qilyapmiz",
+        "text-1" :"Biz Samarqandning meʼmoriy diqqatga sazovor joylarining epigrafik matnlarini restavratsiya qilishda faol ishtirok etamiz, qoʻlda yozilgan kitoblarni restavratsiya qilish, suvenirlar dizayni bilan shugʻullanamiz.",
+        "text-2":"Sayyohlar iltimosiga ko‘ra qamish va bambuk ruchkalar bilan VII asr texnologiyasi bo‘yicha tayyorlangan tabiiy charm yoki Samarqand qog‘oziga, baxt va farovonlik tilab, ularning nomlarini arabcha yozishning turli uslublari bilan yozamiz.", 
+        "contactUs":"Aloqa"
+    }, 
+    "contact":{
+        "title":"Biz bilan bog'lanish", 
+        "label-address":"Manzil:", 
+        "label-phone":"Telefon raqami:", 
+        "label-email":"Email manzil:",
+        "address-1":"O'zbekistan, Samarqand, Registon Maydon,", 
+        "address-2":"Ulug'bek Madrasasi", 
+        "phone":"+998 97 916 69 09", 
+        "email":"info@azzavajallagmail.uz", 
+        "form-title":"Bizga xabar yuboring", 
+        "placeholder-name":"To'liq ismi sharif*", 
+        "placeholder-phone":"Telefon raqami*",
+        "placeholder-email":"e-mail", 
+        "placeholder-message":"Xabar",
+        "send":"Xabar yuborish"
+    },
+    "footer":{
+        "contact-title":"Kontaktlar",
+        "telegram":"Telegram",
+        "map":"Sayt xaritasi", 
+        "aboutUs":"Biz haqimizda",
+        "work":"Ishimiz",
+        "team": "Bizning jamoamiz",
+        "duty":"Biz nima qiliyapmiz",
+        "contact":"Kontakt", 
+        "label-address":"Manzil", 
+        "address-1":"O'zbekistan, Samarqand,",
+        "address-2":"Registon maydoni,",
+        "address-3":"Ulug'bek Madrasasi"
+    }
+    
+}

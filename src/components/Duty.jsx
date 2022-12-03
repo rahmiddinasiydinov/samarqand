@@ -2,18 +2,21 @@ import classNames from "classnames"
 import styles from './Duty.module.scss'
 import logo from '../assets/images/duty-image.png'
 import {Button} from './Button'
+import { useTranslation } from "react-i18next"
 
 export const Duty = () => {
+    const {t} = useTranslation("translation", {keyPrefix: "duty"})
+
     return (<section id='duty' className={classNames(styles.duty)}>
         <div className={classNames(styles.left)}>
             <img className={classNames(styles.image)} src={logo} alt="author" />
         </div>
         <div className={classNames(styles.right)}>
-            <h2 className={classNames(styles.heading, "content__heading")}>Biz nima qilyapmiz</h2>
-            <p className={classNames(styles.heading, "content__text")}>Biz Samarqandning meʼmoriy diqqatga sazovor joylarining epigrafik matnlarini restavratsiya qilishda faol ishtirok etamiz, qoʻlda yozilgan kitoblarni restavratsiya qilish, suvenirlar dizayni bilan shugʻullanamiz.
+            <h2 className={classNames(styles.heading, "content__heading")}>{t("title")}</h2>
+            <p className={classNames(styles.heading, "content__text")}>{t("text-1")}
             <br/><br/>
-            Sayyohlar iltimosiga ko‘ra qamish va bambuk ruchkalar bilan VII asr texnologiyasi bo‘yicha tayyorlangan tabiiy charm yoki Samarqand qog‘oziga, baxt va farovonlik tilab, ularning nomlarini arabcha yozishning turli uslublari bilan yozamiz.</p>
-            <Button light contained>Aloqa</Button>
+            {t("text-2")}</p>
+            <Button light contained>{t("contactUs")}</Button>
         </div>
     </section>)
 }

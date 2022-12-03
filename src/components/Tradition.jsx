@@ -3,23 +3,26 @@ import styles from './Tradition.module.scss';
 import Container from './Container';
 import {Button} from './Button'
 import traditionImage from '../assets/images/tradition.png'
+import { useTranslation } from 'react-i18next';
 
 export const Tradition = () => {
-
+    const {t} =useTranslation('translation', {keyPrefix: 'tradition'})
     const getClassnames = () => classNames(styles.tradition)
+
+
     return (<section id='tradition' className={getClassnames()}>
             <Container>
-                <h1 className={styles.heading}>Go'zal<span className={styles.arabic}> Arab </span>
-                 yozuvi san'ati</h1>
+                <h1 className={styles.heading}>{ t('heading-1') }<span className={styles.arabic}> { t('arabic') }</span>
+                { t('heading-2') }</h1>
                 
-                 <p className={styles.content}>Ushbu hurmatga sazovor hunarmandchilik 1400 yildan oshadi. Birinchi Qur'onni yozish uchun qadimgi matnlardan foydalanilgan.</p>
+                 <p className={styles.content}>{ t('subtext') }</p>
 
                  <div className={styles.article}>
                     <div className={styles.article__text}>
-                        <h2 className={styles.article__heading}>Arab xattotligi o'zini yozgan an'anadir</h2>
-                        <p className={classNames(styles.article__content, 'content__text')}>Asrlar davomida xattotlik amaliy faoliyatdan go‘zal yozuv san’atiga aylanib, endi shunchaki muloqot vositasi emas, balki san’at turi va islom madaniy o‘ziga xosligining muhim qismiga aylandi. Bugungi kunda tashrif buyuruvchilar deyarli barcha islom davlatlarida masjid bitiklaridan tortib, zamonaviy sanʼatgacha uning yozuvi izlarini koʻrishlari mumkin. <br/><br/> Samarqandlik zamonaviy xattot Abdujalil Ergashev arab xattotligini qadrlaydi. Amaliyotchi xattot A.Ergashev meʼmoriy yodgorliklarning epigrafik matnlarini tiklashda faol ishtirok etadi.</p>
+                        <h2 className={styles.article__heading}>{ t('title') }</h2>
+                        <p className={classNames(styles.article__content, 'content__text')}>{ t('text-1') } <br/><br/> { t('text-2') }.</p>
                         
-                        <Button contained>Aloqa</Button>
+                        <Button contained>{ t('contactUs') }</Button>
 
                     </div>
                     <div className={styles.article__image}>
