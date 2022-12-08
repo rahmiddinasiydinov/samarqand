@@ -57,9 +57,9 @@ export const Footer = () => {
                 <h3 className={styles.heading}>{ t('label-address') }</h3>
                 <span className={styles.address}>{ t('address-1') } <br /> { t('address-2') }  <br /> { t('address-3') } </span>
             </div>
-            <div  className={styles.column}>
+            {/* <div  className={styles.column}>
                 <Select light options={[{value:'en', content:"Eng"},{value:'ru', content:"Rus"}, {value:'uz', content:"Uzb"}]}/>
-            </div>
+            </div> */}
             </div>
             </div>
         </Container>

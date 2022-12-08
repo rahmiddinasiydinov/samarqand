@@ -4,22 +4,32 @@
     border: none;
     transition: .1s linear;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-wrap: nowrap;
     cursor: pointer;
+    width: 120px;
     &:hover{
         color: $secondary;
     }
 }
 .withBorder{
-    padding: 17px 59px ;
+    padding: 17px 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 3px solid $primary;
     border-radius: 20px;
+    width: 200px;
     &:hover{
         background-color: $primary;
     }
 }
 .contained{
-    padding: 18px 86px;
+    padding: 18px 0;
+    width: 200px;
+    display: flex;
+    justify-content: center;
     background-color: $primary;
     border: 1px solid $primary;
     font-family: 600;
@@ -34,7 +44,10 @@
     }
 }
 .light{
-    padding: 18px 86px;
+    padding: 18px 0;
+    width: 200px;
+    display: flex;
+    justify-content: center;
     background-color: $secondary;
     border: 1px solid $secondary;
     color: $primary;
@@ -55,6 +68,7 @@
 
     .button{
        font-size: 14px;
+       width: unset;
     }
     .contained{
         padding: 10px 30px;
